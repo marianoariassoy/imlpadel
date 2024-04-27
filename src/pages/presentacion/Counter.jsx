@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 
 const Counter2 = () => {
-  const targetDate = new Date('March 16, 2024 00:00:00 GMT-03:00').getTime()
+  const targetDate = new Date('June 30, 2024 00:00:00 GMT-03:00').getTime()
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining())
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Counter2 = () => {
     return { days, hours, minutes, seconds }
   }
   return (
-    <div className='grid grid-flow-col  text-center auto-cols-max '>
+    <div className='grid grid-flow-col text-center auto-cols-max m-auto'>
       <div className='flex flex-col p-2 bg-neutral rounded-box text-primary'>
         <span className='countdown font-mono text-5xl'>
           <span style={{ '--value': timeRemaining.days }}></span>

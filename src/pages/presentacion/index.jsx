@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet'
 import { WhatsApp } from '../../components/icons'
 import Item from './Item'
+import Counter from './Counter'
 
 const Presentacion = () => {
   const data = [
@@ -82,12 +83,17 @@ Cierre de listas de buena fe: <strong>23 de Junio</strong>`
         <span className='text-2xl'>🏆</span>
       </div>
 
+      <Counter />
+
       <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZ3bnA0M3dxc3hwN2J6NW15d2p1bWk0c2hyMWQ5bG4wNWI1OXR4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/esTVyN05zikLotrcMj/giphy.gif' />
 
       <article>
         <p className='border-t border-b py-6 border-primary'>
-          Formá parte de una de las <strong>ligas de clubes</strong> más importante de la zona. Participá junto a tu
-          grupo de amigos representando a tu club, jugando en tus canchas y también conociendo otros clubes y jugadores.
+          Formá parte de una de las <strong>ligas de clubes amateur</strong> más importantes de la zona.
+          <br />
+          Actualmente contamos con más de 90 equipos participando en <strong>IML Tenis.</strong> <br />
+          Te invitamos a participar junto a tu grupo de amigos representando a tu club, jugando en tus canchas y también
+          conociendo otros clubes y jugadores.
           <br />
           Vas a poder jugar <strong>cada semana</strong>, ver resultados y rankings siempre actualizados en nuestro
           sistema web.
