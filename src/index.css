@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.active,
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+svg {
+  fill: currentColor;
+  stroke: currentColor;
+}
+.text-6xl {
+  font-size: 4rem;
+}
+input::placeholder {
+  color: inherit;
+}
+#search {
+  background-image: url('/assets/images/magnifying-glass-solid.svg');
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+.fade-in-slow {
+  animation: fadeIn 1s ease forwards;
+}
+.pulse {
+  animation: fadeIn 0.5s ease infinite alternate;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+table thead tr {
+  border: none;
+}
+table thead tr th {
+  padding-bottom: 0 !important;
+}
+table tbody tr td {
+  white-space: nowrap;
+}
+table tbody tr {
+  border: 0;
+}
+input:-webkit-autofill {
+  background-color: transparent;
+  color: white;
+}
+.text-xl {
+  font-size: 1.15rem;
+}
