@@ -79,7 +79,7 @@ Cierre de listas de buena fe: <strong>23 de Junio</strong>`
   return (
     <section className='fade-in flex flex-col gap-y-6 text-sm max-w-xl m-auto'>
       <div className='text-center '>
-        <h1 className='font-bold text-primary text-xl'>Bienvenido al Apertura 2024</h1>
+        <h1 className='font-bold text-primary text-xl'>Bienvenido al Clausura 2024</h1>
         <span className='text-2xl'>🏆</span>
       </div>
 
@@ -89,11 +89,11 @@ Cierre de listas de buena fe: <strong>23 de Junio</strong>`
 
       <article>
         <p className='border-t border-b py-6 border-primary'>
-          Formá parte de una de las <strong>ligas de clubes amateur</strong> más importantes de la zona.
+          Formá parte de una de las <strong>ligas de equipos amateur</strong> más importantes de la zona.
           <br />
           Actualmente contamos con más de 90 equipos participando en <strong>IML Tenis.</strong> <br />
-          Te invitamos a participar junto a tu grupo de amigos representando a tu club, jugando en tus canchas y también
-          conociendo otros clubes y jugadores.
+          Te invitamos a participar junto a tu grupo de amigos, jugando en tus canchas y también conociendo otras
+          canchas y jugadores.
           <br />
           Vas a poder jugar <strong>cada semana</strong>, ver resultados y rankings siempre actualizados en nuestro
           sistema web.
