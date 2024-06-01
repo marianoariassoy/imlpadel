@@ -54,10 +54,9 @@ Cierre de listas de buena fe: <strong>23 de Junio</strong>`
       text: `<strong>El equipo visitante</strong> será el encargado de proveer las pelotas para el encuentro, deberan ser pelotas Yuka en tubo x2, que la liga se encargara de proveer.`
     },
     {
-      title: '💵 ¿Cuál es el valor y como abonar la inscripción del equipo de un equipo?',
-      text: `<strong>Durante Mayo $80.000- </strong><br/>
-      <strong>Durante Junio $99.000.- </strong><br/>
-      <strong>Durante Julio $120.000.- </strong><br/><br/>
+      title: '💵 ¿Cuál es el valor y como abonar la inscripción de cada jugador?',
+      text: `<strong>Durante Mayo $10.000- </strong><br/>
+      <strong>Durante Junio $12.000.- </strong><br/> <br/>
       <strong>Datos para transferencia bancaria:</strong> <br/>
       CVU: 0000168300000001419333<br/>
       Alias: imltenis2023
