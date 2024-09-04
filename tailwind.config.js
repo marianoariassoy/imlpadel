@@ -14,7 +14,7 @@ module.exports = {
           'base-content': '#8c8c8c',
           primary: '#2133ff',
           accent: '#2133ff',
-          'base-100': '#202020',
+          'base-100': '#1c1c1c',
           'base-300': '#252525'
         }
       }
