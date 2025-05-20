@@ -40,7 +40,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
 
     {
       title: '🕛 ¿Qué día y horario se juega por categoría?',
-      text: `<strong>Los dias domingos de 9hs a 13hs.</strong> <br/>
+      text: `<strong>Los dias domingos de 9hs a 17hs.</strong> <br/>
       Cada equipo podrá elegir el horario en condición de local. En caso de que una institución presente más de un equipo, la organización lo tendrá presente a la hora de las programaciones para no superponer horarios.
       `
     },
@@ -79,7 +79,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     <section className='fade-in flex flex-col gap-y-6 text-sm max-w-xl m-auto'>
       <div className='text-center flex flex-col items-center'>
         <h1 className='font-bold text-primary text-lg'>Torneo Clausura 2025</h1>
-        {/* <div className='text-2xl text-center'>🏆</div> */}
+        <div className='text-2xl text-center'>🏆</div>
       </div>
 
       <div className='aspect-square overflow-hidden rounded-xl'>

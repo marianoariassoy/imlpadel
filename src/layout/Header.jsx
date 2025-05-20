@@ -26,7 +26,7 @@ const Header = () => {
           <img
             src='/assets/iso.svg'
             alt='Interclubes DePádel'
-            className='w-24'
+            className='w-20'
           />
         </Link>
       </div>
