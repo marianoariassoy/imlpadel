@@ -50,7 +50,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     },
     {
       title: '🎉 ¿Que premios hay?',
-      text: `Los equipos campeones obtendrán la copa del torneo Intercelubes DePádel Clausura 2025, medallas, regalos, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
+      text: `Los equipos campeones obtendrán la copa del torneo Intercelubes DePádel Clausura 2025, medallas, camisetas para todo el euipo, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
       `
     },
     {
