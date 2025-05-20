@@ -59,11 +59,11 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     },
     {
       title: '💵 ¿Cuál es el valor y como abonar la inscripción de cada jugador?',
-      text: `<strong>El valor por jugador es de $25.000- </strong> <br/><br/>
+      text: `El valor por jugador es de <strong>$25.000- </strong> <br/><br/>
       <strong>Datos para transferencia bancaria:</strong> <br/>
-      Alias: imltenis.pagos
+      Alias: interclubesdepadel <br/> Nombre: Mariano Arias
       <br/> 
-      Enviar comprobante al área administrativa +54 9 11 3017-1475.
+      Enviar comprobante al área administrativa +54 9 11 3017 1475.
       `
     },
     {
@@ -77,19 +77,21 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
   ]
   return (
     <section className='fade-in flex flex-col gap-y-6 text-sm max-w-xl m-auto'>
-      <div className='text-center flex flex-col items-center'>
-        <h1 className='font-bold text-primary text-lg'>Torneo Clausura 2025</h1>
-        <div className='text-2xl text-center'>🏆</div>
+      <div className='flex flex-col gap-y-3'>
+        <div className='text-center flex flex-col items-center'>
+          <h1 className='font-bold text-primary text-lg'>Torneo Clausura 2025</h1>
+          <div className='text-2xl text-center'>🏆</div>
+        </div>
+
+        <div className='aspect-square lg:aspect-video overflow-hidden rounded-xl'>
+          <img
+            src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2t6cmtkZThhdXU0dnloenJvcm9lNnV2N2NpMWE1MzFtYWVnbnNqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1z2sFxmuNdA8lxkHu/giphy.gif'
+            className='w-full h-full object-cover object-center'
+          />
+        </div>
       </div>
 
-      <div className='aspect-square overflow-hidden rounded-xl'>
-        <img
-          src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2t6cmtkZThhdXU0dnloenJvcm9lNnV2N2NpMWE1MzFtYWVnbnNqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1z2sFxmuNdA8lxkHu/giphy.gif'
-          className='w-full h-full object-cover object-center'
-        />
-      </div>
-
-      <div className=' [&>p>span]:font-bold [&>p>span]:text-primary'>
+      <div className='[&>p>span]:font-bold [&>p>span]:text-primary'>
         <p>
           <span>DePádel</span>, creador de uno de los circuitos de pádel más importantes de Argentina, e{' '}
           <span>IML Tenis</span>, líder en torneos de tenis por equipos, se unen para impulsar los interclubes de pádel
@@ -137,7 +139,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
       </div>
       <div className='mb-3 font-bold text-primary'>¡Nos vemos en la cancha! 😉</div>
 
-      <div className='aspect-square overflow-hidden rounded-xl'>
+      <div className='aspect-square lg:aspect-video overflow-hidden rounded-xl'>
         <img
           src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Zuem8wZW1xM2FkNGwzcWdlZWNqbmJkdWtsczVwODQzMjQ4MHF3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HjfFs253fqrU3pfQg7/giphy.gif'
           className='w-full h-full object-cover object-center'
