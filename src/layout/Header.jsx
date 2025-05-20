@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Logo, Bars } from '../components/icons'
+import { Bars } from '../components/icons'
 import UserMenu from './UserMenu'
 
 const Header = () => {
@@ -23,7 +23,11 @@ const Header = () => {
       </div>
       <div className='navbar-center text-primary'>
         <Link to='/'>
-          <Logo />
+          <img
+            src='/assets/iso.svg'
+            alt='Interclubes DePádel'
+            className='w-24'
+          />
         </Link>
       </div>
       <div className='navbar-end'>

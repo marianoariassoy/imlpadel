@@ -2,9 +2,9 @@ import HTMLTEXT from '../../hooks/useHTML'
 
 const Item = ({ title, text }) => {
   return (
-    <article className='flex flex-col gap-y-3 p-5 bg-zinc-700 text-white '>
-      <h2 className='font-bold'>{title}</h2>
-      <div className='opacity-70'>
+    <article className='flex flex-col gap-y-3 p-5 bg-black bg-opacity-10 rounded-xl shadow-md'>
+      <h2 className='font-bold text-primary'>{title}</h2>
+      <div>
         <HTMLTEXT text={text} />
       </div>
     </article>

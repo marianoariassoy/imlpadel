@@ -1,18 +1,19 @@
 import { Helmet } from 'react-helmet'
 import { WhatsApp } from '../../components/icons'
 import Item from './Item'
+import Whatsapp from '../../components/Whatsapp'
 
 const Presentacion = () => {
   const data = [
     {
       title: '🤔 ¿Qué necesito para realizar la inscripción?',
-      text: `Para inscribirte necesitás leer la información completa de cómo se lleva adelante el torneo y armar tu equipo con un mínimo de 5 participantes en la lista de buena fe y un máximo de 8 jugadores. Tener o alquilar 2 canchas de Padel de la misma superficie para poder hacer de local.`
+      text: `Para inscribirte necesitás leer la información completa de cómo se lleva adelante el torneo y armar tu equipo con un mínimo de 5 participantes en la lista de buena fe. Tener o alquilar 2 canchas de Padel de la misma superficie para poder hacer de local.`
     },
     {
       title: '📅 Fechas',
-      text: `Inicio de torneo: <strong>6 de Octubre</strong><br />
-Cierre de Inscripción: <strong>22 de Septiembre</strong><br />
-Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
+      text: `Inicio de torneo: <strong>5 de Julio</strong><br />
+Cierre de Inscripción: <strong>22 de Junio</strong><br />
+Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     },
     {
       title: '🏆 ¿Cómo es el formato de juego y del torneo?',
@@ -23,8 +24,8 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
     },
     {
       title: '🚀 ¿En qué categorías puedo inscribirme?',
-      text: `<strong>Damas:</strong> 9na/8va. <br/> 
-      <strong>Caballeros:</strong> 9na/8va, 7ma/6ta.  
+      text: `<strong>Caballeros y Damas:</strong> 8va a 3ra <br/> 
+      <strong>Mixtos:</strong> M15 M13 M11 M9.  
       `
     },
     {
@@ -33,8 +34,8 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
     },
     {
       title: '🌍 ¿Dónde se juega?',
-      text: `Cada equipo <strong>representa a un club</strong> que jugará de local reservando o alquilando cancha según corresponda.<br/>
-      Zonas de juego: Zona Norte, Zona Oeste de Buenos Aires.`
+      text: `Cada equipo <strong>representará a un club</strong> donde jugará de local.<br/>
+      Zonas de juego: Zona Oeste, Zona Norte de Buenos Aires.`
     },
 
     {
@@ -44,8 +45,12 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
       `
     },
     {
+      title: '🤔 ¿Hay un mínimo de fechas o encuentros a disputar?',
+      text: `No podemos saber con exactitud cuantas fechas se disputarán por categoría pero garantizamos un minimo de 8 fechas por equipo.`
+    },
+    {
       title: '🎉 ¿Que premios hay?',
-      text: `Los equipos campeones obtendrán la copa del torneo IML Padel Clausura 2024, medallas, regalos, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
+      text: `Los equipos campeones obtendrán la copa del torneo Intercelubes DePádel Clausura 2025, medallas, regalos, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
       `
     },
     {
@@ -54,7 +59,7 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
     },
     {
       title: '💵 ¿Cuál es el valor y como abonar la inscripción de cada jugador?',
-      text: `<strong>El valor por jugador es de $12.000- </strong><br/><br/>
+      text: `<strong>El valor por jugador es de $25.000- </strong> <br/><br/>
       <strong>Datos para transferencia bancaria:</strong> <br/>
       Alias: imltenis.pagos
       <br/> 
@@ -63,7 +68,7 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
     },
     {
       title: '💵 ¿Cuál es el valor a abonar cada partido?',
-      text: `Cada jugador deberá abonar el monto de $4000 al club en concepto de alquiler de cancha.`
+      text: `xxx.`
     },
     {
       title: '😀 ¿Cómo llevo adelante la inscripción?',
@@ -72,27 +77,43 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
   ]
   return (
     <section className='fade-in flex flex-col gap-y-6 text-sm max-w-xl m-auto'>
-      <div className='text-center '>
-        <h1 className='font-bold text-primary text-xl'>Bienvenidos al Clausura 2024</h1>
-        <span className='text-2xl'>👋</span>
+      <div className='text-center flex flex-col items-center'>
+        <h1 className='font-bold text-primary text-lg'>Torneo Clausura 2025</h1>
+        {/* <div className='text-2xl text-center'>🏆</div> */}
       </div>
 
-      <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZ3bnA0M3dxc3hwN2J6NW15d2p1bWk0c2hyMWQ5bG4wNWI1OXR4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/esTVyN05zikLotrcMj/giphy.gif' />
+      <div className='aspect-square overflow-hidden rounded-xl'>
+        <img
+          src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2t6cmtkZThhdXU0dnloenJvcm9lNnV2N2NpMWE1MzFtYWVnbnNqcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1z2sFxmuNdA8lxkHu/giphy.gif'
+          className='w-full h-full object-cover object-center'
+        />
+      </div>
 
-      <article>
-        <p className='border-t border-b py-6 border-primary'>
-          Formá parte de una de las <strong>ligas de equipos amateur de padel</strong> más importantes de la zona.
+      <div className=' [&>p>span]:font-bold [&>p>span]:text-primary'>
+        <p>
+          <span>DePádel</span>, creador de uno de los circuitos de pádel más importantes de Argentina, e{' '}
+          <span>IML Tenis</span>, líder en torneos de tenis por equipos, se unen para impulsar los interclubes de pádel
+          en todo el país.
           <br />
-          Actualmente contamos con más de 120 equipos participando en <strong>IML Tenis.</strong> <br />
-          Te invitamos a participar junto a tu grupo de amigos, jugando en tus canchas y también conociendo otras
-          canchas y jugadores.
           <br />
-          Vas a poder jugar <strong>cada semana</strong>, ver resultados y rankings siempre actualizados en nuestra web.
+          Vas a poder formar parte de <span>una nueva forma de competir en el padel.</span> Participá con tu grupo de
+          amigos representando a tu club, jugando en tus canchas, también conociendo nuevos lugares y jugadores cada
+          semana. Siempre con resultados y rankings actualizados en nuestro sitio web.
           <br />
-          Ademas de participár de las finales junto a todas las categorías en un evento de cierre con entrega de
-          importantes premios y sorteos.
+          <br />
+          No te pierdas la oportunidad de ser elegido como el jugador destacado de la fecha o de recibir importantes
+          premios al finalizar la temporada, liderando el <span>ranking de jugadores.</span> Además, vas a poder ayudar
+          a tu club a conquistar el título anual en el <span>ranking de clubes.</span>
+          <br />
+          <br />Y eso no es todo: valoramos profundamente a nuestra comunidad, por eso también sumamos espacios de
+          entretenimiento como <span>La Batalla de los Clubes</span>, la elección de <span>Los Mejores Capitanes</span>{' '}
+          y los nuevos <span>DePadel Awards.</span>
+          <br />
+          <br />
+          Todo culmina con una <span>gran jornada de finales</span>, donde todas las categorías participan de un evento
+          de cierre con entrega de premios y sorteos.
         </p>
-      </article>
+      </div>
 
       {data.map((item, index) => (
         <Item
@@ -105,7 +126,7 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
       <div className='font-medium'>
         <a
           href='https://wa.me/5491130171475'
-          className='hover:underline flex items-center gap-x-2 flex-wrap'
+          className='hover:underline flex items-center gap-x-2 flex-wrap text-primary'
           target='_blank'
         >
           <span>Contactate por</span>
@@ -114,12 +135,19 @@ Cierre de listas de buena fe: <strong>29 de Septiembre</strong>`
           </span>
         </a>
       </div>
-      <div className='mb-3 font-medium'>¡Nos vemos en la cancha! 😉</div>
+      <div className='mb-3 font-bold text-primary'>¡Nos vemos en la cancha! 😉</div>
 
-      <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG83ajN5dGtrMTN2eW0yd3Jrd2FoYWM3dmtpMGd3cWJncmt5emVhcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kMI4h7pHx1XQhPo7GU/giphy.gif' />
+      <div className='aspect-square overflow-hidden rounded-xl'>
+        <img
+          src='https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3Zuem8wZW1xM2FkNGwzcWdlZWNqbmJkdWtsczVwODQzMjQ4MHF3aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HjfFs253fqrU3pfQg7/giphy.gif'
+          className='w-full h-full object-cover object-center'
+        />
+      </div>
+
+      <Whatsapp />
 
       <Helmet>
-        <title>IML Padel Apertura 2024</title>
+        <title>Interclubes DePádel Clausura 2025</title>
       </Helmet>
     </section>
   )
