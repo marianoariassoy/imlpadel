@@ -96,8 +96,8 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
           en todo el país.
           <br />
           <br />
-          Vas a poder formar parte de <span>una nueva forma de competir en el padel.</span> Participá con tu grupo de
-          amigos representando a tu club, jugando en tus canchas, también conociendo nuevos lugares y jugadores cada
+          Vas a poder formar parte de <span>una nueva forma de competir en el pádel.</span> Participá con tu grupo de
+          amigos representando tu club, jugando en tus canchas, también conociendo nuevos lugares y jugadores cada
           semana. Siempre con resultados y rankings actualizados en nuestro sitio web.
           <br />
           <br />
