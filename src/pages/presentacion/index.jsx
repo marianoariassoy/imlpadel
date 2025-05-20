@@ -50,12 +50,12 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     },
     {
       title: '🎉 ¿Que premios hay?',
-      text: `Los equipos campeones obtendrán la copa del torneo Intercelubes DePádel Clausura 2025, medallas, camisetas para todo el euipo, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
+      text: `Los equipos campeones obtendrán la copa del torneo Interclubes DePádel Clausura 2025, medallas,  equipo completo de indumentaria para cada jugador, descuentos en ordenes de compra y otros premios, los equipos subcampeones obtendrán medallas, regalos y descuentos en ordenes de compra.
       `
     },
     {
       title: '🎾 Pelotas',
-      text: `El club local será el encargado de proover las pelotas.`
+      text: `El club local será el encargado de aportar las pelotas oficiales YUKA del torneo provistas por la organización.`
     },
     {
       title: '💵 ¿Cuál es el valor y como abonar la inscripción de cada jugador?',
@@ -68,7 +68,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
     },
     {
       title: '💵 ¿Cuál es el valor a abonar cada partido?',
-      text: `xxx.`
+      text: `Pago por Partido $8.000 cada jugador`
     },
     {
       title: '😀 ¿Cómo llevo adelante la inscripción?',
