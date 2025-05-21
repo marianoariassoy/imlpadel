@@ -127,7 +127,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`
 
       <div className='font-medium'>
         <a
-          href='https://wa.me/5491130171475'
+          href='https://wa.me/5491169604530'
           className='hover:underline flex items-center gap-x-2 flex-wrap text-primary'
           target='_blank'
         >

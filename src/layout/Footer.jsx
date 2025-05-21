@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <div className='p-6'>
-      <div className='text-sm text-center flex flex-col gap-y-1'>
+      <div className='text-sm text-center flex flex-col'>
         <span className='font-bold'>Interclubes DePádel</span>
         <span>Buenos Aires, Argentina. &copy; {year}</span>
         <div className='flex items-center justify-center gap-x-2 flex-wrap'>
@@ -14,15 +14,14 @@ const Footer = () => {
             <div className='flex items-center gap-x-1'>
               <WhatsApp />
               <a
-                href='https://wa.me/5491130171475'
+                href='https://wa.me/5491169604530'
                 className='hover:text-primary'
               >
-                11 3017 1475
+                11 6960 4530
               </a>
             </div>
           </span>
         </div>
-        <span></span>
       </div>
     </div>
   )
